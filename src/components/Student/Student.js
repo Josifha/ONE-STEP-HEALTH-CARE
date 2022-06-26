@@ -251,6 +251,7 @@ export default function Student() {
                         </Accordion.Body>
                     </Accordion.Item>     
                 </Accordion>
+                <a class="btn btn-success" href="/" role="button">Logout</a>
             </div>  
         </div>
     </div>

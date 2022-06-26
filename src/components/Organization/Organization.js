@@ -231,6 +231,7 @@ export default function Organization() {
                         </Accordion.Body>
                     </Accordion.Item>      
                 </Accordion>
+                <a class="btn btn-primary" href="/" role="button">Logout</a>
             </div>  
         </div>
     </div>
