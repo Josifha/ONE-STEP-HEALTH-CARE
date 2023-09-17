@@ -1,5 +1,7 @@
 In terminal use - npm start
 Adhar Number - 2345 5678 5678 or 2568 8654 8564
 For Phone number Login -  use your phone number + otp
-Organization Login  - GCP
-Organization Pasword  - GCP@123
+Organization Login  - kIMS
+Organization Pasword  - KIMS@123
+search Record with - 2345 5678 5678
+Demo Link - https://utopian-eye-352216.web.app/

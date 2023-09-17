@@ -5,6 +5,7 @@ import Login from './components/Login/Login';
 import Otp from './components/Otp/Otp';
 import Student from './components/Student/Student';
 import Organization from './components/Organization/Organization';
+import opentextApi from './components/Organization/opentext';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           </Routes>
           <Routes>
             <Route exact path="/organization" element={<Organization/>}/>
+          </Routes>
+          <Routes>
+            <Route exact path="/opentext" element={<opentextApi/>}/>
           </Routes>
       </Router>
     </div>

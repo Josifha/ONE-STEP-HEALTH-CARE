@@ -116,7 +116,7 @@ export default function Login() {
   return(
     <div class="login-page">
         <div class="form">
-            <h4>Scard</h4>       
+            <h4>One Step Health Care</h4>       
             <Form onSubmit={handleSubmit}>
                 
                 <Dropdown title={usertype} id="dropdown-menu-align-right" onSelect={handleUserTypeChange}>
@@ -124,8 +124,8 @@ export default function Login() {
                         {usertype}
                     </Dropdown.Toggle>
                     <Dropdown.Menu variant="Success">
-                        <Dropdown.Item eventKey="student">Student</Dropdown.Item>
-                        <Dropdown.Item eventKey="organization">Organization</Dropdown.Item>
+                        <Dropdown.Item eventKey="student">Person</Dropdown.Item>
+                        <Dropdown.Item eventKey="organization">Hospital</Dropdown.Item>
                         <Dropdown.Item eventKey="admin">Admin</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
@@ -151,6 +151,8 @@ export default function Login() {
                 </div>
 
                 <div id= "admin-form"  class="admin-form"></div> 
+
+        
 
                 <div id="recaptcha-container" class="justify-center flex"></div> 
 

@@ -154,9 +154,9 @@ export default function Student() {
   return(
     <div class="student-page">
         <div class="detail">
-            <h4>Scard</h4>  
+            <h4>One Step Health Care</h4>  
             <h5 id= "fullname"></h5>
-            <h5>Aadhar No: {aadharNo}</h5>  
+            <h5>Government ID No: {aadharNo}</h5>  
             <div class="empty-div"></div> 
             <div>
                 <Accordion>
@@ -181,19 +181,19 @@ export default function Student() {
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="1">
-                        <Accordion.Header>College Details</Accordion.Header>
+                        <Accordion.Header>Born Details</Accordion.Header>
                         <Accordion.Body>
                         <div>
                             <Table bordered variant="success" id= "college-table" className="college-table">
                                 <thead>
                                     <tr>
-                                        <th>College Name</th>
-                                        <th>Course</th>
-                                        <th>Year of Joining</th>
-                                        <th>Year of Studying</th>
-                                        <th>History of Backlogs</th>
-                                        <th>Year of Passout</th>
-                                        <th>CGPA</th>
+                                        <th>Hospital Name</th>
+                                        <th>Doctor ID</th>
+                                        <th>Year of Born</th>
+                                        <th>Weight</th>
+                                        <th>Height</th>
+                                        <th>Parents Name</th>
+                                        <th>Parents ID</th>
                                     </tr>
                                 </thead>
                                 <tbody></tbody>
@@ -202,15 +202,15 @@ export default function Student() {
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="2">
-                        <Accordion.Header>12th Grade</Accordion.Header>
+                        <Accordion.Header>Last Check Up</Accordion.Header>
                         <Accordion.Body>
                         <div>
                             <Table bordered variant="success" id= "twelth-table" className="twelth-table">
                                 <thead>
                                     <tr>
-                                        <th>School Name</th>
-                                        <th>Year of Passed Out</th>
-                                        <th>Percentage</th>
+                                    <th>Hospital Name</th>
+                                        <th>Year </th>
+                                        <th>Symptoms</th>
                                     </tr>
                                 </thead>
                                 <tbody></tbody>
@@ -219,15 +219,15 @@ export default function Student() {
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="3">
-                        <Accordion.Header>10th Grade</Accordion.Header>
+                        <Accordion.Header>Prescription</Accordion.Header>
                         <Accordion.Body>
                         <div>
                             <Table bordered variant="success" id= "tenth-table" className="tenth-table">
                                 <thead>
                                     <tr>
-                                        <th>School Name</th>
-                                        <th>Year of Passed Out</th>
-                                        <th>Percentage</th>
+                                        <th>Hospital Name</th>
+                                        <th>Year </th>
+                                        <th>Pres</th>
                                     </tr>
                                 </thead>
                                 <tbody></tbody>
@@ -236,13 +236,13 @@ export default function Student() {
                         </Accordion.Body>
                     </Accordion.Item>  
                     <Accordion.Item eventKey="4">
-                        <Accordion.Header>Work Details</Accordion.Header>
+                        <Accordion.Header>Government Fund or Health Insurance</Accordion.Header>
                         <Accordion.Body>
                         <div>
                             <Table bordered variant="success" id= "WorkDetails-table" className="WorkDetails-table">
                                 <thead>
                                     <tr>
-                                        <th>Organisation</th>
+                                        <th>Hospital</th>
                                     </tr>
                                 </thead>
                                 <tbody></tbody>
